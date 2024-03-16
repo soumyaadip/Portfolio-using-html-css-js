@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +23,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Project</a></li>
+                <li><a href="#my-works" class="menu-btn">Project</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
@@ -69,16 +68,16 @@
         <h2 class="title">My Projects</h2>
         <div class="projects">
             <div id="foodHub">
-                
+                <a href="https://food-hub-blond.vercel.app/"><img src="./food-hub.jpg" width="210px" height="270px"></a>
             </div>
             <div id="calculator">
-               
+                <a href="https://web-calculator-pied.vercel.app/"><img src="./calculator.png" width="210px" height="270px"></a>
             </div>
             <div id="weather">
-
+                <a href="#"><img src="./weather.jpg" width="210px" height="270px"></a>
             </div>
             <div id="bmi">
-
+                <a href="https://bmi-calculator-two-psi.vercel.app/"><img src="./bmi.jpeg" width="210px" height="270px"></a>
             </div>
         </div>
                 
@@ -86,65 +85,135 @@
     
 
     <!-- skills section start -->
+
     <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>C</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line C"></div>
+            <div class="container">
+                <div class="box">
+                  <div class="shadow"></div>
+                  <div class="content">
+                    <div class="percent" data-text="C" style="--num: 85">
+                      <div class="dot"></div>
+                      <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                      </svg>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>C++</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line C1"></div>
+                    <div class="number">
+                      <h2>85<span>%</span></h2>
                     </div>
-                    
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>React</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line React"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Bootstrap</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line Bootstrap"></div>
-                    </div>
-                    
+                  </div>
                 </div>
-            </div>
+              
+                <div class="box">
+                  <div class="shadow"></div>
+                  <div class="content">
+                    <div class="percent" data-text="C++" style="--num: 70">
+                      <div class="dot"></div>
+                      <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <h2>57<span>%</span></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                    <div class="shadow"></div>
+                    <div class="content">
+                      <div class="percent" data-text="HTML" style="--num: 90">
+                        <div class="dot"></div>
+                        <svg>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                      </div>
+                      <div class="number">
+                        <h2>57<span>%</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="shadow"></div>
+                    <div class="content">
+                      <div class="percent" data-text="CSS" style="--num: 70">
+                        <div class="dot"></div>
+                        <svg>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                      </div>
+                      <div class="number">
+                        <h2>57<span>%</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="shadow"></div>
+                    <div class="content">
+                      <div class="percent" data-text="JS" style="--num: 60">
+                        <div class="dot"></div>
+                        <svg>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                      </div>
+                      <div class="number">
+                        <h2>57<span>%</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                
+                <div class="box">
+                    <div class="shadow"></div>
+                    <div class="content">
+                      <div class="percent" data-text="React" style="--num: 50">
+                        <div class="dot"></div>
+                        <svg>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                      </div>
+                      <div class="number">
+                        <h2>57<span>%</span></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="shadow"></div>
+                    <div class="content">
+                      <div class="percent" data-text="BS" style="--num: 60">
+                        <div class="dot"></div>
+                        <svg>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                      </div>
+                      <div class="number">
+                        <h2>57<span>%</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                <div class="box">
+                  <div class="shadow"></div>
+                  <div class="content">
+                    <div class="percent" data-text="SQL" style="--num: 30">
+                      <div class="dot"></div>
+                      <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                      </svg>
+                    </div>
+                    <div class="number">
+                      <h2>30<span>%</span></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
 
